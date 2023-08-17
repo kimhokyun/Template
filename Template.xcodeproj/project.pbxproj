@@ -17,6 +17,7 @@
 		2BAF4F282A88FB03007F6E3C /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAF4F272A88FB03007F6E3C /* CustomTableViewCell.swift */; };
 		2BAF4F2A2A88FB4D007F6E3C /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAF4F292A88FB4D007F6E3C /* Data.swift */; };
 		2BAF4F2C2A88FC22007F6E3C /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAF4F2B2A88FC22007F6E3C /* DetailVC.swift */; };
+		77AF2EFF2A8E76270067DD06 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AF2EFE2A8E76260067DD06 /* Util.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		2BAF4F272A88FB03007F6E3C /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		2BAF4F292A88FB4D007F6E3C /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		2BAF4F2B2A88FC22007F6E3C /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		77AF2EFE2A8E76260067DD06 /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				2BAF4F052A88F9B9007F6E3C /* Info.plist */,
 				2BAF4F272A88FB03007F6E3C /* CustomTableViewCell.swift */,
 				2B80EA5E2A8900F600E99666 /* CustomCollectionViewCell.swift */,
+				77AF2EFE2A8E76260067DD06 /* Util.swift */,
 			);
 			path = Template;
 			sourceTree = "<group>";
@@ -248,6 +251,7 @@
 				2BAF4F282A88FB03007F6E3C /* CustomTableViewCell.swift in Sources */,
 				2B80EA5F2A8900F600E99666 /* CustomCollectionViewCell.swift in Sources */,
 				2BAF4F2A2A88FB4D007F6E3C /* Data.swift in Sources */,
+				77AF2EFF2A8E76270067DD06 /* Util.swift in Sources */,
 				2BAF4EFC2A88F9B8007F6E3C /* ViewController.swift in Sources */,
 				2BAF4EF82A88F9B8007F6E3C /* AppDelegate.swift in Sources */,
 				2BAF4EFA2A88F9B8007F6E3C /* SceneDelegate.swift in Sources */,
