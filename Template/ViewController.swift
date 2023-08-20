@@ -25,8 +25,9 @@ class ViewController: UIViewController {
 //        super.viewDidLoad()
 //        tableView.delegate = self
 //        tableView.dataSource = self
-        collectionView.delegate = self
-        collectionView.dataSource = self
+//        collectionView.delegate = self
+//        collectionView.dataSource = self
+
         
         let decoder: JSONDecoder = JSONDecoder()
         if let data = UserDefaults.standard.object(forKey: "SampleData") as? Data,
@@ -34,8 +35,19 @@ class ViewController: UIViewController {
             self.sampleDatas = sampleDatas
             tableView.reloadData()
         }
+        
     }
     
+    @IBAction func nextPage(_ sender: Any) {
+        let vc = storyboard?.instantiateViewController(withIdentifier: "DetailVC") as! DetailVC
+        vc.delegate = self
+        vc.modalPresentationStyle = UIModalPresentationStyle.fullScreen // fullscreen으로 해야 viewWillAppear 을 호출함
+//        vc.feed = self.feed
+        self.navigationController?.pushViewController(vc, animated: true)
+        self.dismiss(animated: false){
+            self.present(vc, animated: false)
+        }
+    }
 }
 
 
